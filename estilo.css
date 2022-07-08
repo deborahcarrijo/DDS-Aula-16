@@ -1,0 +1,180 @@
+@charset"UTF-8";
+
+
+#logo{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	top: 0px; 
+	left: 0px; 
+	width: 100%; 
+	height: 100px; 
+	display: flex; 
+	background-color: transparent; 
+	justify-content: center; 
+	border-bottom: 3px ridge gray;
+}
+
+#menu ul{
+	display: inline-flex; 
+	list-style: none; 
+	margin-top: 30px;
+}
+
+#menu li{
+	padding: 10px; 
+}
+
+#menu a{
+	text-decoration: none; 
+	color: white; 
+}
+
+#menu button{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	transition: color 1s;
+	background-color: darkgreen; 
+	transition: background-color 1s;
+	border-radius: 0.5em;
+	padding: 5px;
+}
+
+#menu button:hover{
+	color: black;	
+	background-color: skyblue; 
+}
+
+h1{
+	text-align: center;
+	font-family: Arial;
+	font-size: 30pt;
+	color: #206040;
+	text-shadow: 2px 2px 60px #004d39;
+}
+
+#conteudo{
+	width: 980px; 
+	float: left;
+	background-color: rgba(153, 255, 230, 0.7);
+	margin-bottom: 80px;
+}
+
+article{
+	margin-left: 20px; 
+	width: 940px; 
+	float: left; 
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 15pt;
+	color: black;
+	text-indent: 50px;
+}
+
+article ul{
+	text-indent: 0px;
+}
+
+article ol{
+	font-size: 12pt;
+	text-indent: 0px;
+}
+
+#tab1{
+	border: 3px ridge gray;
+	border-spacing: 0px;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14pt;
+}
+
+#tab1 td{
+	border: 1.5px solid gray;
+}
+
+#tab1 caption{
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 15pt;
+}
+
+#tab1 td.titulo{
+	font-weight: bold;
+}
+
+.fig1 img{
+	border: 3px ridge #99ffe6;
+	margin-left: -30px;
+}
+
+.fig1 figcaption{
+	font-family: monospace;
+	font-size: 12px;
+	text-align: center;
+	background-color: #99ffe6;
+	margin-top: -4px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+#lateral{
+	display: flex;
+	width: 350px; 
+	float: right; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	margin-bottom: 80px;
+}
+
+#lateral img{
+	width: 270px;
+	border: 3px ridge #99ffe6;
+}
+
+#lateral figcaption{
+	font-family: monospace;
+	font-size: 12px;
+	text-align: center;
+	background-color: #99ffe6;
+	margin-top: -4px;
+}
+
+footer{
+	color: blue; 
+	background-color: white; 
+	width: 100%; 
+	height: 80px; 
+	left: 0px;
+	bottom: 0px; 
+	position: fixed; 
+	display: flex;
+	justify-content: center;
+}
+
+.lista{
+	text-align: center;
+	font-family: Calibri;
+	font-size: 13pt;
+	list-style: none;
+	display: inline-flex;
+	margin-top: 10px;
+}
+
+.logo_rede{
+	width: 30px;
+	height: 30px;
+}
+
+.rodape{
+	text-align: center;
+	font-family: Calibri;
+	font-size: 11pt;
+	color: deepskyblue;
+	padding-top: 40px;
+	margin-left: -195px;
+}
