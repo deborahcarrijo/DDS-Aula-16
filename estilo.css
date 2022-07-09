@@ -156,25 +156,21 @@ footer{
 	justify-content: center;
 }
 
-.lista{
-	text-align: center;
-	font-family: Calibri;
-	font-size: 13pt;
+footer ul{
 	list-style: none;
 	display: inline-flex;
-	margin-top: 10px;
+}
+
+footer li{
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 11pt;
+	color: deepskyblue;
 }
 
 .logo_rede{
 	width: 30px;
 	height: 30px;
-}
-
-.rodape{
-	text-align: center;
-	font-family: Calibri;
-	font-size: 11pt;
-	color: deepskyblue;
-	padding-top: 40px;
-	margin-left: -195px;
 }
